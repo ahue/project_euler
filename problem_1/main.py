@@ -4,10 +4,19 @@
 
 def solve():
 
+	mysum = 0;
+	for x in range(1,1000):
+		if x%3 == 0:
+			mysum = mysum + x
+		elif x%5 == 0:
+			mysum = mysum + x
+
+	return mysum
 
 
 def main():
 	print "Hello World"
 
+	print solve()
 
 main()
